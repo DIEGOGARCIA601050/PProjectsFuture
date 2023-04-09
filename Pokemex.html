@@ -1,0 +1,66 @@
+    <html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Pokemex</title>
+        <style> 
+        body {
+            color: rgb(22, 22, 22);
+            background-color: #EC7063;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        </style>
+        <script src="./JS/Pokemex.js"></script>         
+        <link rel="stylesheet" href="./PokemexStyles.css">
+    </head>
+    <body>
+        <section id="seleccionarmascota">
+            <h1><span class="Title" >Pokemex<span class="Fuego">🔥</span><span class="azul">💧</span><span class="Tierra">🌱</span></h1>
+
+            <h2 class="caption">Elige a tu mascota:</h2>
+
+            <input type="radio" id="Hipodoge" name="mascota" />
+            <label for="Hipodoge">Hipodoge -> <span class="azul">Agua💧</span><figure><img src="./assets/DALL·E 2023-02-12 15.07.45 - una caricatura de un hibrido entre un perro y un hipopotamo.png" alt=""></figure></label> 
+
+            <input type="radio" id="Capipepo" name="mascota" />
+            <label for="Capipepo">Capipepo -> <span class="Tierra">Tierra🌱</span></label> 
+
+            <input type="radio" id="Ratigueya" name="mascota" />
+            <label for="Ratigueya">Ratigueya -> <span class="Fuego">Fuego🔥</span><figure>
+                <img src="./assets/DALL·E 2023-01-27 17.37.06 - una caricatura de una rata-sarihuella en un formato de png-8.png" alt="Ratigueya" class="Ratigueya">
+                <figcaption>De DALL·E2</figcaption>
+            </figure> </label><br>
+            
+
+            <input type="radio" id="Langostelvis" name="mascota" />
+            <label for="Langostelvis">Langostelvis -> <span class="azul">Agua💧</span> y <span class="Fuego">Fuego🔥</span><figure><img src="./assets/una caricatura de una langosta con la cara de Elvis presleyDALL·E 2023-02-12 15.27.00 - .png" alt=""></figure></label> 
+
+            <input type="radio" id="Tucapalma" name="mascota" />
+            <label for="Tucapalma">Tucapalma -> <span class="azul">Agua💧</span> y <span class="Tierra">Tierra🌱</span></label> 
+
+
+            <input type="radio" id="Pydos" name="mascota" />
+            <label for="Pydos">Pydos -> <span class="Tierra">Tierra🌱</span> y <span class="Fuego">Fuego🔥</span></label> <br>            
+
+            
+
+            <button id="Seleccionar"> seleccionar</button>
+        </section>
+
+        <section id="seleccionar ataque">
+            <h1 class="Title" >Pokemex🔥💧🌱</h1>
+
+            <h2>Elige tu ataque:</h2>
+            <p>Tu mascota <span id="Tu mascota"></span> tiene <span id="vidas_jugador"> 3 </span> vidas </p>
+            <p>La mascota<span id="La mascota"></span> del enemigo tiene <span id="vidas_enemigo">3</span> vidas</p>
+
+            <p>
+                <button id="Ataque1"> <span class="Fuego">Fuego🔥</span></button>
+                <button id="Ataque2"> <span class="azul">Agua💧</span></button>
+                <button id="Ataque3"> <span class="Tierra">Tierra🌱</span></button>
+            </p>
+        </section>
+
+        <section id="mensajes"></section>
+                
+     </body>
+</html>
